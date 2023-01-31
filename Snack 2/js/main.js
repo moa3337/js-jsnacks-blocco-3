@@ -12,7 +12,7 @@ let sum = 0;
 while (sum < 50) {
 
     // CHIEDO ALL'UTENTE UN NUMERO
-    let number = parseInt(prompt("inserisci un numero"));
+    const number = parseInt(prompt("inserisci un numero"));
 
     // ALL'ARRAY VUOTO AGGIUNGO IL NUMERO DELL'UTENTE
     empty.push(number);
